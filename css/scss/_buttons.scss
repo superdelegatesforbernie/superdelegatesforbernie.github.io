@@ -1,0 +1,13 @@
+.btn-bern-blue, .btn-bern-red {
+  color: $white;
+  border-color: $white;
+  background: transparent none;
+}
+
+.btn-bern-blue:hover {
+  background-color: $red;
+}
+
+.btn-bern-red:hover {
+  background-color: $blue;
+}

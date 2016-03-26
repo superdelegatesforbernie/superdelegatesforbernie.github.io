@@ -1,0 +1,44 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font;
+  font-weight: $weight;
+}
+
+header {
+  box-shadow: 0 0 0.25rem $shadow-start,0 0.25rem 0.5rem $shadow-end;
+  margin-bottom: .5rem;
+}
+
+h1 {
+  color: $white;
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+h2 {
+  text-align: center;
+}
+
+section {
+  padding: 2rem 0;
+  min-height: 20rem;
+}
+
+section a {
+  color: inherit;
+}
+
+a:focus, :focus, .btn:focus, a:focus {
+  outline: 0;
+}
+
+a:focus {
+  outline-offset: 0;
+}
+
+a:focus, a:hover {
+  color: inherit;
+}

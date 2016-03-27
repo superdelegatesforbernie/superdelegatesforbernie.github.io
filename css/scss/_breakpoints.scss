@@ -15,6 +15,11 @@
 }
 
 @media (min-width: 75em) {
+  h1 {
+    display: inline-block;
+    float: left;
+    margin-top: 3rem;
+  }
   #herojumbo{
     text-align: left;
   }
@@ -24,5 +29,7 @@
     margin: 0 auto;
     right: 2rem;
   }
-  h1 {display: inline-block; float: left; margin-top: 3rem;}
+  #headerbox p {
+    padding-left: 2rem;
+  }
 }

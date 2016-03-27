@@ -4,6 +4,9 @@
 .blue {
   background-color: #0D47A1; }
 
+#herojumbo a, #herojumbo .lead {
+  color: #ffffff; }
+
 .note {
   font-size: 1.15rem;
   font-style: italic;
@@ -60,11 +63,9 @@ a:focus, a:hover {
   margin-bottom: 0;
   padding: 2rem 0; }
 
-#herojumbo a, #herojumbo .lead {
-  color: #ffffff; }
-
 #bernielogo {
-  margin: 2rem auto; }
+  margin: 2rem auto;
+  text-align: center; }
 
 .btn-bern-blue, .btn-bern-red {
   color: #ffffff;
@@ -78,7 +79,8 @@ a:focus, a:hover {
   background-color: #0D47A1; }
 
 #superdelegates {
-  text-align: center; }
+  text-align: center;
+  min-height: 55rem; }
 
 #superdelegates ol {
   margin: 0;
@@ -114,6 +116,11 @@ a:focus, a:hover {
     min-width: 250px;
     min-height: 250px; } }
 @media (min-width: 75em) {
+  h1 {
+    display: inline-block;
+    float: left;
+    margin-top: 3rem; }
+
   #herojumbo {
     text-align: left; }
 
@@ -123,9 +130,7 @@ a:focus, a:hover {
     margin: 0 auto;
     right: 2rem; }
 
-  h1 {
-    display: inline-block;
-    float: left;
-    margin-top: 3rem; } }
+  #headerbox p {
+    padding-left: 2rem; } }
 
 /*# sourceMappingURL=theme.css.map */
